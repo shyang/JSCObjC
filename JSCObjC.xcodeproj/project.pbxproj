@@ -10,6 +10,9 @@
 		AD8A2AA01D144457004106FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8A2A9F1D144457004106FB /* main.m */; };
 		AD8A2AAB1D144457004106FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8A2AAA1D144457004106FB /* Assets.xcassets */; };
 		AD8A2AAE1D144457004106FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8A2AAC1D144457004106FB /* LaunchScreen.storyboard */; };
+		AD8A2AB71D1445AC004106FB /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8A2AB61D1445AC004106FB /* Engine.m */; };
+		AD8A2AB91D14492A004106FB /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = AD8A2AB81D14492A004106FB /* index.js */; };
+		AD8A2ABC1D144A97004106FB /* SNProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8A2ABB1D144A97004106FB /* SNProtocols.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,12 @@
 		AD8A2AAA1D144457004106FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD8A2AAD1D144457004106FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8A2AAF1D144457004106FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8A2AB51D1445AC004106FB /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		AD8A2AB61D1445AC004106FB /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		AD8A2AB81D14492A004106FB /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		AD8A2ABA1D144A97004106FB /* SNProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNProtocols.h; sourceTree = "<group>"; };
+		AD8A2ABB1D144A97004106FB /* SNProtocols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNProtocols.m; sourceTree = "<group>"; };
+		AD8A2ABD1D144CC9004106FB /* PrivateApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateApi.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +61,13 @@
 			children = (
 				AD8A2AAA1D144457004106FB /* Assets.xcassets */,
 				AD8A2AAC1D144457004106FB /* LaunchScreen.storyboard */,
+				AD8A2AB81D14492A004106FB /* index.js */,
+				AD8A2ABD1D144CC9004106FB /* PrivateApi.h */,
+				AD8A2AB51D1445AC004106FB /* Engine.h */,
+				AD8A2AB61D1445AC004106FB /* Engine.m */,
 				AD8A2AAF1D144457004106FB /* Info.plist */,
+				AD8A2ABA1D144A97004106FB /* SNProtocols.h */,
+				AD8A2ABB1D144A97004106FB /* SNProtocols.m */,
 				AD8A2A9E1D144457004106FB /* Supporting Files */,
 			);
 			path = JSCObjC;
@@ -123,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8A2AB91D14492A004106FB /* index.js in Resources */,
 				AD8A2AAE1D144457004106FB /* LaunchScreen.storyboard in Resources */,
 				AD8A2AAB1D144457004106FB /* Assets.xcassets in Resources */,
 			);
@@ -136,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8A2AA01D144457004106FB /* main.m in Sources */,
+				AD8A2AB71D1445AC004106FB /* Engine.m in Sources */,
+				AD8A2ABC1D144A97004106FB /* SNProtocols.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
